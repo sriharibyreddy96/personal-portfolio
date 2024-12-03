@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.2d19a3fe.css",
+    "main.js": "/personal-portfolio/static/js/main.6d452dc3.js",
+    "static/media/netflix.jpg": "/personal-portfolio/static/media/netflix.0af0d59fef5a1954b1f6.jpg",
+    "static/media/hari_hero.png": "/personal-portfolio/static/media/hari_hero.84476777922dfe389be6.png",
+    "static/media/School_management2.avif": "/personal-portfolio/static/media/School_management2.7bf3a57ad0ab83d7e8fd.avif",
+    "static/media/E-Commerce.avif": "/personal-portfolio/static/media/E-Commerce.12813ac1710aee15c32b.avif",
+    "static/media/news.avif": "/personal-portfolio/static/media/news.869f47422fc0b6036a91.avif",
+    "static/media/Hospital_management.avif": "/personal-portfolio/static/media/Hospital_management.94adbd8f4f11e7b72552.avif",
+    "static/media/Furniture.avif": "/personal-portfolio/static/media/Furniture.211e041acc587508663e.avif",
+    "index.html": "/personal-portfolio/index.html",
+    "main.2d19a3fe.css.map": "/personal-portfolio/static/css/main.2d19a3fe.css.map",
+    "main.6d452dc3.js.map": "/personal-portfolio/static/js/main.6d452dc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d19a3fe.css",
+    "static/js/main.6d452dc3.js"
+  ]
+}
