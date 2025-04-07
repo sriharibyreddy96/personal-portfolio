@@ -1,21 +1,42 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.2d19a3fe.css",
-    "main.js": "/personal-portfolio/static/js/main.d8955597.js",
+    "main.css": "/personal-portfolio/static/css/main.1fbd66e8.css",
+    "main.js": "/personal-portfolio/static/js/main.1d696fa5.js",
+    "static/media/netflix1.png": "/personal-portfolio/static/media/netflix1.ca34be4ff4f497ff3b2b.png",
+    "static/media/netflix2.png": "/personal-portfolio/static/media/netflix2.b9af38bd6b16a5444f49.png",
+    "static/media/sports.png": "/personal-portfolio/static/media/sports.dbb20f006fef6209a3b0.png",
     "static/media/netflix.jpg": "/personal-portfolio/static/media/netflix.0af0d59fef5a1954b1f6.jpg",
+    "static/media/home.png": "/personal-portfolio/static/media/home.a76bef615125cc9f8d46.png",
+    "static/media/furniture1.png": "/personal-portfolio/static/media/furniture1.3ff481e16b933f74252a.png",
+    "static/media/furniture3.png": "/personal-portfolio/static/media/furniture3.8b07fe24e1b916cae947.png",
+    "static/media/portfolio.png": "/personal-portfolio/static/media/portfolio.1281bee9f6c83e18544c.png",
+    "static/media/furniture4.png": "/personal-portfolio/static/media/furniture4.3e7b989993246e5722e8.png",
+    "static/media/furniture2.png": "/personal-portfolio/static/media/furniture2.8c4a62426f61f474bcab.png",
+    "static/media/sports1.png": "/personal-portfolio/static/media/sports1.aaa8b14e483f166dc9b9.png",
     "static/media/hari_hero.png": "/personal-portfolio/static/media/hari_hero.84476777922dfe389be6.png",
+    "static/media/netflix3.png": "/personal-portfolio/static/media/netflix3.19b19a65916daadcee3c.png",
+    "static/media/netflix4.png": "/personal-portfolio/static/media/netflix4.e915804e893e0648e06a.png",
+    "static/media/hair.webp": "/personal-portfolio/static/media/hair.d55714ac59f254edd7ce.webp",
+    "static/media/news2.webp": "/personal-portfolio/static/media/news2.b5db57a1403f513e3dcc.webp",
+    "static/media/dry.webp": "/personal-portfolio/static/media/dry.4f8b5ce4c1d51ead30d4.webp",
+    "static/media/nail.webp": "/personal-portfolio/static/media/nail.ae7936c47f2990783020.webp",
     "static/media/School_management2.avif": "/personal-portfolio/static/media/School_management2.7bf3a57ad0ab83d7e8fd.avif",
-    "static/media/E-Commerce.avif": "/personal-portfolio/static/media/E-Commerce.12813ac1710aee15c32b.avif",
+    "static/media/wash.webp": "/personal-portfolio/static/media/wash.2343f388d282f8aa3f16.webp",
     "static/media/news.avif": "/personal-portfolio/static/media/news.869f47422fc0b6036a91.avif",
-    "static/media/contact_us.avif": "/personal-portfolio/static/media/contact_us.6d642092cfe894ae0c02.avif",
     "static/media/Hospital_management.avif": "/personal-portfolio/static/media/Hospital_management.94adbd8f4f11e7b72552.avif",
+    "static/media/contact_form2.webp": "/personal-portfolio/static/media/contact_form2.81329e2790b871756f89.webp",
+    "static/media/sports2.webp": "/personal-portfolio/static/media/sports2.8397e2d464c11f221e0b.webp",
+    "static/media/news1.webp": "/personal-portfolio/static/media/news1.92d4c08fe0ef5eb90533.webp",
     "static/media/Furniture.avif": "/personal-portfolio/static/media/Furniture.211e041acc587508663e.avif",
+    "static/media/sports3.webp": "/personal-portfolio/static/media/sports3.d8e50d6eb0ab4f4778e9.webp",
+    "static/media/news4.webp": "/personal-portfolio/static/media/news4.bcee9d6e329cf1eda3fb.webp",
+    "static/media/news3.webp": "/personal-portfolio/static/media/news3.e26e6b331943be142767.webp",
     "index.html": "/personal-portfolio/index.html",
-    "main.2d19a3fe.css.map": "/personal-portfolio/static/css/main.2d19a3fe.css.map",
-    "main.d8955597.js.map": "/personal-portfolio/static/js/main.d8955597.js.map"
+    "main.1fbd66e8.css.map": "/personal-portfolio/static/css/main.1fbd66e8.css.map",
+    "main.1d696fa5.js.map": "/personal-portfolio/static/js/main.1d696fa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d19a3fe.css",
-    "static/js/main.d8955597.js"
+    "static/css/main.1fbd66e8.css",
+    "static/js/main.1d696fa5.js"
   ]
 }
