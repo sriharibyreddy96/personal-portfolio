@@ -1,0 +1,158 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container */
+.projects-container {
+  padding: 20px;
+  margin: 50px;
+}
+
+/* Heading with neon effect */
+.projects-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-shadow: 
+    0 0 10px rgba(65, 72, 119, 0.9),
+    0 0 20px rgba(65, 72, 119, 0.8), 
+    0 0 30px rgba(65, 72, 119, 1),
+    0 0 40px rgba(65, 72, 119, 1),
+    0 0 50px rgba(65, 72, 119, 1);  
+}
+
+/* Card container */
+.projects-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 50px;
+  margin-top: 30px;
+}
+
+/* Project card */
+.project-card {
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease-in-out;
+  /* height: 350px; Make cards taller */
+  width: 275px;
+  box-shadow: 0 0 10px #414877, 0 0 10px #414877; /* Red neon glow */
+  cursor: pointer;
+
+}
+
+.project-card:hover{
+  box-shadow: 0 0 10px #414877, 0 0 10px #414877; 
+}
+
+/* Card content */
+.card-content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* The image will stay unblurred */
+.card-image {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+/* Title style */
+.card-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Buttons */
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.card-button {
+  padding: 4px 10px;
+  background-color: transparent;
+  border: 2px solid #414877;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #414877;
+  border: 2px solid #fff;
+  color: #222;
+}
+
+/* Details button */
+.details-button {
+  position: absolute;
+  bottom: 70%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding: 10px 15px;
+  background-color: #414877; /* Red background */
+  color: #fff;
+  font-size: 1.1rem;
+  border: 2px solid #fff; /* White border */
+  border-radius: 5px;
+  text-decoration: none;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 10px #414877, 0 0 10px #414877; 
+}
+
+/* Apply blur effect and show details button on hover */
+.project-card:hover .details-button {
+  opacity: 1; /* Show the details button */
+  box-shadow: 0 0 10px #414877, 0 0 10px #414877; 
+}
+
+/* Apply blur to the content when hovered */
+.project-card:hover .card-content {
+
+  filter: blur(5px); /* Apply blur effect to the content */
+}
+
+.project-card:hover .card-image {
+  filter: blur(5px); /* Apply blur effect to the image */
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .projects-cards {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-cards {
+    grid-template-columns: 1fr; /* 1 card per row on small screens */
+  }
+
+  .projects-heading {
+    font-size: 2rem;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-container{
+    margin: 10px;
+  }
+}

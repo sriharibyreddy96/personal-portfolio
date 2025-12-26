@@ -1,0 +1,155 @@
+/* Hero Section Styling */
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 50px;
+}
+
+.hero-right-tab{
+  display: none;
+}
+
+.hero-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+  text-align: start; 
+}
+
+.hero-left h1 {
+  font-size: 40px;
+}
+
+.hero-left h3 {
+  font-size: 30px;
+}
+
+.hero-left .icons {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-left .icon {
+  size: 25px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-left button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background: red;
+  border-radius: 10px;
+  border: none;
+}
+
+.hero-left button:hover{
+  box-shadow: 0 0 10px 3px red;
+}
+
+.hero-left button a {
+  background-color: red;
+}
+
+.hero-right img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  /* background-color: rgb(0, 11, 38); */
+  display: block;
+  margin: 0px 100px 0px 0px;
+}
+
+
+/* Media Query for screens less than or equal to 1200px */
+@media (max-width: 1200px) {
+  .hero {
+    height: auto; 
+    margin: 10px 20px; 
+    flex-direction: column; 
+    align-items: center;
+  }
+  .hero-right-tab{
+    display: block;
+  }
+  .hero-left {
+    text-align: start; 
+    margin-left: 0;
+    align-items: center; 
+  }
+  .hero-left h1, h3{
+    font-size: 25px;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .hero-right-tab{
+    margin-bottom: 30px; 
+    text-align: center; 
+  }
+
+  .hero-right-tab img {
+    width: 280px; 
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .hero-left h1 {
+    font-size: 30px; 
+  }
+
+  .hero-left .icons {
+    justify-content: center; 
+  }
+
+  .hero-left button {
+    font-size: 18px; 
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 510px) {
+
+  .hero{
+    margin: 0px;
+  }
+
+  .hero-left{
+    text-align: start;
+  margin-top: 10px;
+  }
+  .hero-left .heading{
+    font-size: 25px;
+  }
+  .hero-left h1, h3{
+    font-size: 18px;
+  }
+  .hero-left .icons{
+    gap: 15px;
+  }
+  .hero-left .icon{
+    size: 20px;
+  }
+  .hero-left button {
+    font-size: 15px; 
+    padding: 8px 12px;
+  }
+}
+
+

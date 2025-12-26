@@ -1,0 +1,108 @@
+/* Basic Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 10px 5px 10px rgba(238, 226, 226, 0.1);
+    /* background-color: #000; Ensure it's visible */
+  }
+  
+  .logo h1 {
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 25px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    padding: 5px 15px;
+    position: relative;
+    font-weight: bold;
+  }
+  
+  /* Neon Hover Effect */
+  .links a:hover {
+    border-radius: 5px;
+    background-color: red;
+    /* text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FF6347; */
+    /* box-shadow: 0 0 10px #FFD700, 0 0 20px #FF6347, 0 0 30px #FF6347; */
+  }
+  
+  /* "Hire Me" Neon Effect with Flickering */
+  .hire-me {
+    border: 1px solid #FFD700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: red;
+    text-align: center;
+    /* box-shadow: 0 0 10px #FFD700, 0 0 20px #FF6347, 0 0 30px #FF6347; */
+    font-size: 1.2rem;
+  }
+
+  .hire-me:hover{
+    background-color: white;
+    color: black !important;
+    animation: flicker 0.8s infinite alternate;
+    /* box-shadow: 0 0 10px #FFD700, 0 0 20px #FF6347, 0 0 30px #FF6347; */
+  }
+  
+  @keyframes flicker {
+    0% {
+      text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FF6347;
+      box-shadow: 0 0 10px #FFD700, 0 0 20px #FF6347, 0 0 30px #FF6347;
+    }
+    50% {
+      text-shadow: 0 0 10px #FFD700, 0 0 15px #FFD700, 0 0 25px #FF6347;
+      box-shadow: 0 0 15px #FFD700, 0 0 25px #FF6347, 0 0 35px #FF6347;
+    }
+    100% {
+      text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FF6347;
+      box-shadow: 0 0 10px #FFD700, 0 0 20px #FF6347, 0 0 30px #FF6347;
+    }
+  }
+  
+  /* Hamburger menu */
+  nav .hamburger {
+    display: none;
+  }
+  
+  @media (max-width: 990px) {
+    nav .hamburger {
+      display: block;
+    }
+  
+    .links {
+      width: 100%;
+      position: absolute;
+      top: 10vh;
+      left: -100%;
+      z-index: 9999;
+      flex-direction: column;
+      align-items: start;
+      justify-content: flex-start;
+      padding: 30px;
+      gap: 30px;
+    }
+  
+    .links a {
+      /* color: white; */
+      font-size: 1.5rem;
+    }
+  
+    .active {
+      left: 0;
+    }
+  }
+  

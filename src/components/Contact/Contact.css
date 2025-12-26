@@ -1,0 +1,171 @@
+/* General reset for body and div */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.contact-container {
+  margin: 100px 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-header h1 {
+  font-size: 3rem;
+  text-align: left;
+  text-shadow: 
+  0 0 10px rgba(65, 72, 119, 0.9),
+  0 0 20px rgba(65, 72, 119, 0.8), 
+  0 0 30px rgba(65, 72, 119, 1),
+  0 0 40px rgba(65, 72, 119, 1),
+  0 0 50px rgba(65, 72, 119, 1); 
+  margin-bottom: 30px;
+}
+
+/* Contact Form Section */
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.contact-image {
+  flex: 1;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+  flex: 1;
+  min-width: 350px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  /* color: #333; */
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 12px 40px 12px 40px;  /* Increased left padding to make space for the icon */
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border-color: #414877;
+  box-shadow: 0 0 10px 3px #414877;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;  /* Positioning the icon inside the input field */
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #ccc;
+  pointer-events: none;
+}
+
+/* Neon Button */
+.neon-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  background-color: #414877;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.neon-button:hover {
+  /* background-color: #FF6347; */
+  box-shadow: 0 0 10px 3px #414877;
+}
+
+/* Toast notification */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-image {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .contact-container{
+    margin: 0px;
+  }
+
+  .contact-header h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+
+  .contact-form {
+    padding: 20px;
+    min-width: 300px;
+  }
+}
