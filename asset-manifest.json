@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.1fbd66e8.css",
-    "main.js": "/personal-portfolio/static/js/main.1d696fa5.js",
+    "main.js": "/personal-portfolio/static/js/main.e525627b.js",
     "static/media/netflix1.png": "/personal-portfolio/static/media/netflix1.ca34be4ff4f497ff3b2b.png",
     "static/media/netflix2.png": "/personal-portfolio/static/media/netflix2.b9af38bd6b16a5444f49.png",
     "static/media/sports.png": "/personal-portfolio/static/media/sports.dbb20f006fef6209a3b0.png",
@@ -14,16 +14,22 @@
     "static/media/furniture2.png": "/personal-portfolio/static/media/furniture2.8c4a62426f61f474bcab.png",
     "static/media/sports1.png": "/personal-portfolio/static/media/sports1.aaa8b14e483f166dc9b9.png",
     "static/media/hari_hero.png": "/personal-portfolio/static/media/hari_hero.84476777922dfe389be6.png",
+    "static/media/Restaurant1.jpg": "/personal-portfolio/static/media/Restaurant1.c0f79605295dca884b12.jpg",
     "static/media/netflix3.png": "/personal-portfolio/static/media/netflix3.19b19a65916daadcee3c.png",
+    "static/media/Restaurant2.jpg": "/personal-portfolio/static/media/Restaurant2.331087b9805f1e5c6ad6.jpg",
+    "static/media/portfolio1.jpg": "/personal-portfolio/static/media/portfolio1.552f5de499b4758c80bb.jpg",
+    "static/media/portfolio3.jpg": "/personal-portfolio/static/media/portfolio3.c239ba1804d8ad6cd628.jpg",
+    "static/media/Portfolio2.jpg": "/personal-portfolio/static/media/Portfolio2.cc7bb987315fc9393be0.jpg",
     "static/media/netflix4.png": "/personal-portfolio/static/media/netflix4.e915804e893e0648e06a.png",
+    "static/media/Restaurant4.jpg": "/personal-portfolio/static/media/Restaurant4.53ba342fb11fff9e3fc2.jpg",
     "static/media/hair.webp": "/personal-portfolio/static/media/hair.d55714ac59f254edd7ce.webp",
+    "static/media/Restaurant3.jpg": "/personal-portfolio/static/media/Restaurant3.dac0e568627b22024a58.jpg",
     "static/media/news2.webp": "/personal-portfolio/static/media/news2.b5db57a1403f513e3dcc.webp",
     "static/media/dry.webp": "/personal-portfolio/static/media/dry.4f8b5ce4c1d51ead30d4.webp",
     "static/media/nail.webp": "/personal-portfolio/static/media/nail.ae7936c47f2990783020.webp",
     "static/media/School_management2.avif": "/personal-portfolio/static/media/School_management2.7bf3a57ad0ab83d7e8fd.avif",
     "static/media/wash.webp": "/personal-portfolio/static/media/wash.2343f388d282f8aa3f16.webp",
     "static/media/news.avif": "/personal-portfolio/static/media/news.869f47422fc0b6036a91.avif",
-    "static/media/Hospital_management.avif": "/personal-portfolio/static/media/Hospital_management.94adbd8f4f11e7b72552.avif",
     "static/media/contact_form2.webp": "/personal-portfolio/static/media/contact_form2.81329e2790b871756f89.webp",
     "static/media/sports2.webp": "/personal-portfolio/static/media/sports2.8397e2d464c11f221e0b.webp",
     "static/media/news1.webp": "/personal-portfolio/static/media/news1.92d4c08fe0ef5eb90533.webp",
@@ -33,10 +39,10 @@
     "static/media/news3.webp": "/personal-portfolio/static/media/news3.e26e6b331943be142767.webp",
     "index.html": "/personal-portfolio/index.html",
     "main.1fbd66e8.css.map": "/personal-portfolio/static/css/main.1fbd66e8.css.map",
-    "main.1d696fa5.js.map": "/personal-portfolio/static/js/main.1d696fa5.js.map"
+    "main.e525627b.js.map": "/personal-portfolio/static/js/main.e525627b.js.map"
   },
   "entrypoints": [
     "static/css/main.1fbd66e8.css",
-    "static/js/main.1d696fa5.js"
+    "static/js/main.e525627b.js"
   ]
 }
